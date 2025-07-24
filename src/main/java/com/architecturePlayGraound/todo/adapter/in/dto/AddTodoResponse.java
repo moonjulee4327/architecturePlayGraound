@@ -1,9 +1,11 @@
-package com.architecturePlayGraound.todo.domain;
+package com.architecturePlayGraound.todo.adapter.in.dto;
 
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
+@Getter
 @RequiredArgsConstructor
-public class Todo {
+public class AddTodoResponse {
     private Long id;
     private String title;
     private boolean completed;
